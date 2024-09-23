@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % For dummy text
+\usepackage{lastpage} % For page numbering
+
+% Header and Footer settings
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Simple Document Title}} % Left-aligned title in header
+\fancyfoot[L]{Institute Name} % Left-aligned institute name in footer
+\fancyfoot[C]{Page \thepage\ of \pageref{LastPage}} % Center page number in footer
+
+\begin{document}
+
+% Section 1
+\section{Section 1}
+\lipsum[1] % Dummy text for section 1
+
+% Section 2
+\section{Section 2}
+\lipsum[2] % Dummy text for section 2
+
+\end{document}
